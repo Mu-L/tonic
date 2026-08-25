@@ -398,6 +398,7 @@ static void GenerateClient(const Service &service, Printer &printer,
           )]
           use grpc::client::*;
           use grpc_protobuf::*;
+          use grpc_protobuf::client::*;
 
           $service_doc$
           #[derive(Debug, Clone)]
